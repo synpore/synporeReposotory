@@ -38,8 +38,8 @@ public class MethodDeliveryAnalyse {
     public static void main(String[] args) {
         Student s1 = new Student("小张");
         Student s2 = new Student("小李");
-        //MethodDeliveryAnalyse.swap(s1, s2);
-        changeParameter(s1);
+        MethodDeliveryAnalyse.swap(s1, s2);
+        //changeParameter(s1);
         System.out.println("s1:" + s1.getName());
         System.out.println("s2:" + s2.getName());
     }
