@@ -13,11 +13,9 @@ public class OptionalsDemon {
 
         optional.ifPresent((s) -> System.out.println(s.charAt(0)));     // "b"
 
-        
+
         String s=null;
         Optional<String> optional2 = Optional.ofNullable(s);
         optional2.ifPresent((p)-> System.out.println(p));//print nothing
-
-
     }
 }
