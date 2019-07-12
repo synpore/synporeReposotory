@@ -1,0 +1,10 @@
+设计模式：
+creational 5 (singleton、abstractor factory 、factory mothod、builder、prototype)
+
+structural 7 (proxy、decorator、adapter、composite、flyweight、facade、bridge)
+
+behavioral 11  chain of responsibility、template、interator ----special structual
+			   command、visitor、strategy     --different behabior
+               mediator、 obeserver          --multiple object
+               state、memento                ---snapshot
+               intepretor
