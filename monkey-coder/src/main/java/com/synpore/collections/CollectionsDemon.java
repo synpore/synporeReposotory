@@ -75,7 +75,6 @@ public class CollectionsDemon {
         // 对List进行二分查找，返回索引，List必须是有序的
         Collections.sort(arrayList);
         System.out.println(Collections.binarySearch(arrayList, 7));
-
         //最好不要用下面这些方法，效率非常低，需要线程安全的集合类型时请考虑使用 JUC 包下的并发集合。
         //synchronizedCollection(Collection<T>  c) //返回指定 collection 支持的同步（线程安全的）collection。
         //synchronizedList(List<T> list)//返回指定列表支持的同步（线程安全的）List。

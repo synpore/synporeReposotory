@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 public class String2List {
 
 
-    //jdk1.7以下原生方式
+    //jdk1.7以下原生方式//
     public static List<Integer> str2Listrimitive(String ids, String delimeter) {
         List<Integer> list = new ArrayList<Integer>();
         if (StringUtils.isEmpty(ids))
@@ -25,7 +25,7 @@ public class String2List {
         return list;
     }
 
-    //jdk1.7以下版本使用集合工具类
+    //jdk1.7以下版本使用集合工具类//
     public static List<Integer> str2List(String ids, String delimeter) {
         List<String> idsStringList = Arrays.asList(ids.split(delimeter));
         List<Integer> idsList = new ArrayList();
