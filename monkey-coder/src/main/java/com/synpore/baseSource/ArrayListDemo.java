@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ArrayListDemo {
-    //
-
+//add some useness word
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
         System.out.printf("Before add:arrayList.size() = %d\n",arrayList.size());
