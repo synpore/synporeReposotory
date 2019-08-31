@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 
 public class String2List {
 
+
     //jdk1.7以下原生方式
     public static List<Integer> str2Listrimitive(String ids, String delimeter) {
         List<Integer> list = new ArrayList<Integer>();
