@@ -18,7 +18,7 @@ import java.util.Optional;
 
 @Component
 @Aspect
-@Order(0)//注意order优先级要比TransactionInterceptor高
+@Order(0)//注意order优先级要比TransactionInterceptor高//
 public class LockAspect {
     private static Logger logger = LoggerFactory.getLogger(LockAspect.class);
 
