@@ -93,6 +93,12 @@
             <artifactId>streaming-batch-task-core</artifactId>
             <version>1.0-RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
